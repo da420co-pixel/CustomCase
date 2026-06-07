@@ -67,8 +67,8 @@ function ConfiguratorPage() {
       </header>
 
       <main className="px-6 pb-8">
-        <div className="mx-auto grid h-[calc(100vh-9rem)] max-w-[1600px] grid-cols-1 gap-6 lg:grid-cols-[1.4fr_1fr]">
-          <section className="glass-panel relative overflow-hidden rounded-3xl">
+        <div className="mx-auto grid max-w-[1600px] grid-cols-1 gap-6 lg:h-[calc(100vh-9rem)] lg:grid-cols-[1.4fr_1fr]">
+          <section className="glass-panel relative h-[620px] overflow-hidden rounded-3xl sm:h-[700px] lg:h-full">
             <PhonePreview config={config} />
           </section>
           <section className="glass-panel flex flex-col overflow-hidden rounded-3xl">
